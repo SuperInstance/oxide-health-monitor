@@ -1,0 +1,7 @@
+[package]
+name = "oxide-health-monitor"
+version = "0.1.0"
+edition = "2021"
+description = "GPU health monitoring with ternary status. Nodes report Healthy(1)/Degraded(0)/Failed(-1). Auto-failover redistributes work from failed nodes. CRDT sync across monitoring agents."
+license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/oxide-health-monitor"
